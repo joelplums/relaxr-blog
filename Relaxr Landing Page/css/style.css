@@ -1,0 +1,266 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800);
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+
+
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  width: 100%;
+}
+
+body {
+     
+     width:100%;
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', sans-serif;
+     
+}
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+
+/*top div formatting*/
+.top {
+  width: 100%;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+  height: 680px;    
+  padding-top: 20px;
+  text-align: center;
+
+  
+
+}
+
+.top h1 {
+  font-weight: 800;
+  font-size: 24px;
+  margin-left: 80px;
+  margin-bottom: 180px;
+  color: white;
+  text-align: left;
+
+}
+
+.top h2 {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  margin-bottom: 90px;
+}
+
+.top a {
+  
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 800;
+  color: #033048;
+  padding: 10px 40px 10px 40px;
+  background-color: #f9e42e;
+  border-radius: 5px;
+  
+  
+ 
+}
+
+
+/*benefit div formatting*/
+.benefits {
+  width: 100%;
+  background-color: #f0efef;
+  height: 400px;
+  padding-top: 50px;
+  padding-left: 80px;
+}
+
+.benefits h2 {
+  color: #033048;
+  font-weight: 600;
+  font-size: 20px;
+  
+}
+
+.benefits p {
+  color: #606161;
+  font-weight: 300;
+  font-size: 13px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+
+.benefits li {
+  color: #606161;
+  list-style-type: disc;
+  list-style-position: inside;
+  font-weight: 300;
+  font-size: 13px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  
+}
+
+
+
+/*quote div formatting*/
+.quote{
+  width: 100%;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top;
+    background-size: cover;
+  height: 250px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.quote blockquote {
+  display: inline-block;
+  font-style: 300 italic;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 15px;
+  
+}
+
+blockquote  {
+  font-style: italic;
+}
+
+.quote p {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+}
+
+/*signup div formatting*/
+.signup {
+  width: 100%;
+  height: 80px;
+  background-color: #f9e42e;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.signup a {
+  
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 800;
+  color: white;
+  padding: 10px 40px 10px 40px;
+  background-color: #033048;
+  border-radius: 5px;
+}
+
+/*tail div formatting*/
+.tail {
+  width: 100%;
+  height: 250px;
+  background-color: #121212;
+  padding-top: 30px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.tail h2 {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  text-align: center;
+  margin-bottom: 45px;
+
+}
+
+.tail a{ 
+  float: center;
+  text-align: center;
+  /*margin-right: 30px;*/
+
+
+  
+}
+
+.tail p{
+  font-weight: 600;
+  font-size: 9px;
+  color: white;
+
+  position: absolute; bottom: 15px; right:0px; left: 0px; 
+  
+  text-align: center;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+.twitter, .facebook {
+  height: 25px;
+}
+
+.twitter {
+  padding-right: 30px;
+}
